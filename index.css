@@ -1,0 +1,119 @@
+
+@font-face{
+  font-family: "Coves";
+  src: url("./resources/Coves Light.otf");
+}
+
+@font-face{
+  font-family: "CovesBold";
+  src: url("./resources/Coves Bold.otf");
+}
+
+body{
+  margin: 0;
+}
+
+a{
+  color: white;
+}
+
+.App{
+  text-align: center;
+  background-color: black;
+  height:auto;
+  font-family: "Coves";
+}
+.uctlogo{
+width:20%;
+max-width: 100px;
+}
+.devsoclogo{
+  width: 40%;
+  max-width: 200px;
+  padding-left: 30px;
+}
+.header{
+  padding-top: 20px;
+}
+
+.headerSeperator{
+  margin-top: 17px;
+  height:8px;
+  background-color: rgb(150, 150, 150);
+}
+.title1{
+  color:white;
+}
+
+.title2{
+  padding-top:7px;
+  color:rgb(199, 199, 199);
+}
+
+.titles{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(49, 49, 49);
+  margin-top: 1px;
+  font-size: clamp(12px,5vw,24px);
+  font-family: "CovesBold";
+}
+
+h2{
+  text-decoration: underline;
+  color: rgb(106, 209, 106);
+  margin-bottom: 7px;
+}
+.mission{
+  max-width: 500px;
+width:80%;
+margin:auto;
+  color: white;
+  font-size: clamp(10px,4vw,20px);
+}
+
+video{
+width:90vw;
+max-width: 800px;
+margin-top:18px;
+}
+
+.work{
+  padding-top: 15px;
+  max-width: 500px;
+  width:80%;
+  margin:auto;
+    color: white;
+    font-size: clamp(10px,4vw,20px);
+}
+
+.members{
+  width:80%;
+  max-width: 500px;
+  margin:auto;
+text-align: center;
+}
+
+.list{
+  background-color: rgb(49, 49, 49);
+  margin-top: 15px;
+  padding-top:1px;
+  padding-bottom: 1px;
+  border-radius: 15px;
+  text-align: left;
+    color: white;
+    font-size: clamp(10px,4vw,20px);
+}
+
+.footer{
+  background-color:rgb(49, 49, 49); 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-size: clamp(10px,4vw,20px);
+}
+
+img{
+  width:12vw;
+  max-width: 80px;
+}
